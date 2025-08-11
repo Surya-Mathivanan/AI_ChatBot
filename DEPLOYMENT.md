@@ -89,7 +89,7 @@ From your downloaded JSON file, extract these values:
 1. Create `frontend/.env.production` file:
 
    ```env
-   VITE_API_BASE_URL=https://your-backend-url.onrender.com
+   VITE_API_BASE_URL=https://ai-assistant-backend-ojiy.onrender.com
    VITE_FIREBASE_API_KEY=your_firebase_api_key
    VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
    VITE_FIREBASE_PROJECT_ID=your_project_id
