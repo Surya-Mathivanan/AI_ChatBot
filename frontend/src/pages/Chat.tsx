@@ -58,7 +58,7 @@ export default function Chat() {
             )}
           </button>
         </div>
-        <p className="muted" style={{marginTop:8}}>Tip: Ask for a day-by-day breakdown or more examples.</p>
+        <p className="muted" style={{marginTop:8}}>Note: When sending the first message, it may take a little longer because the server needs to start.</p>
       </div>
     </div>
   )

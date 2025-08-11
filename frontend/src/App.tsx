@@ -30,11 +30,25 @@ export default function App() {
               <Link to="/chat" className="navlink" onClick={closeSidebar}>
                 <span>💬</span> Chat
               </Link>
-              <div style={{ marginTop: 'auto', paddingTop: '24px' }}>
-                <button className="btn" onClick={() => { logout(); closeSidebar(); }} style={{ width: '100%' }}>
-                  Logout
-                </button>
-              </div>
+              <div 
+  style={{ 
+    display: 'flex', 
+    flexDirection: 'column', 
+    justifyContent: 'flex-end', // Change to 'center' or 'flex-start' if needed
+    marginTop: 'auto', 
+    paddingTop: '24px', 
+    paddingBottom: '24px', // Add bottom padding
+    height: '100%' // Ensure full height for alignment control
+  }}
+>
+  <button 
+    className="btn" 
+    onClick={() => { logout(); closeSidebar(); }} 
+    style={{ width: '100%' }}
+  >
+    Logout
+  </button>
+</div>
             </div>
           ) : (
             <div className="mobile-nav-links">
