@@ -28,7 +28,7 @@ export default function Chat() {
   return (
     <div className="full-bleed">
       <div className="card chat-card">
-        <h2>AI Assistant</h2>
+        <h3>AI Assistant</h3>
         <div className="chat">
           {messages.map((m, i) => (
             <div key={i} className={`bubble ${m.role}`}>

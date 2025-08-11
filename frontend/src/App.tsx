@@ -53,7 +53,7 @@ export default function App() {
             <span></span>
             <span></span>
           </div>
-          <Link to="/" className="brand">AI ChatBot</Link>
+          <Link to="/" className="brand"></Link>
           <div className="spacer" />
           
           {user ? (
