@@ -8,6 +8,9 @@ A streamlined, secure AI chat application featuring Google's Gemini AI. This pro
 - 🤖 Integration with Google's Gemini AI
 - 🎯 Clean, focused user experience
 
+## View Online
+Live Demo :https://ai-chat-bot-sigma-ten.vercel.app/
+
 ## 🏗️ Technology Stack
 
 ### Backend
