@@ -1,0 +1,20 @@
+<<<<<<< HEAD
+Flask==3.0.0
+Flask-CORS==4.0.0
+Flask-SQLAlchemy==3.1.1
+psycopg2-binary==2.9.9
+google-generativeai==0.3.2
+google-auth==2.25.2
+google-auth-oauthlib==1.2.0
+python-dotenv==1.0.0
+=======
+Flask==3.0.3
+flask-cors==4.0.1
+python-dotenv==1.0.1
+google-generativeai==0.7.2
+google-auth==2.30.0
+firebase-admin==6.5.0
+google-cloud-firestore==2.16.0
+
+
+>>>>>>> 96439e8cca49e0cb9cb5adef830e026fcb984c51
