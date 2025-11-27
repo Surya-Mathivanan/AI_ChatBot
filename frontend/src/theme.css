@@ -1,0 +1,122 @@
+:root {
+  /* Supabase Green */
+  --supabase-green: #3ECF8E;
+  --supabase-green-dark: #2fb574;
+  --supabase-green-light: #57d9a0;
+  
+  /* GitHub Blue */
+  --github-blue: #0969DA;
+  --github-blue-dark: #0550ae;
+  --github-blue-light: #218bff;
+  
+  /* Base Colors */
+  --primary-color: var(--supabase-green);
+  --secondary-color: var(--github-blue);
+}
+
+/* Dark Theme (Default) */
+[data-theme="dark"] {
+  --bg-primary: #000000;
+  --bg-secondary: #0d1117;
+  --bg-tertiary: #161b22;
+  --bg-elevated: #1c2128;
+  
+  --text-primary: #e6edf3;
+  --text-secondary: #8b949e;
+  --text-tertiary: #6e7681;
+  
+  --border-primary: #30363d;
+  --border-secondary: #21262d;
+  
+  --accent-primary: var(--supabase-green);
+  --accent-secondary: var(--github-blue);
+  --accent-hover: var(--supabase-green-dark);
+  
+  --message-user-bg: var(--github-blue);
+  --message-ai-bg: var(--bg-elevated);
+  
+  --sidebar-bg: #0d1117;
+  --sidebar-hover: #161b22;
+  --sidebar-active: #1c2128;
+}
+
+/* Light Theme - Supabase Inspired */
+[data-theme="light"] {
+  --bg-primary: #f8faf9;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #e6f2ed;
+  --bg-elevated: #ffffff;
+  
+  --text-primary: #1a1a1a;
+  --text-secondary: #4a5568;
+  --text-tertiary: #718096;
+  
+  --border-primary: #c8e6d8;
+  --border-secondary: #d4e9df;
+  
+  --accent-primary: #3ECF8E;
+  --accent-secondary: #2fb574;
+  --accent-hover: #57d9a0;
+  
+  --message-user-bg: #3ECF8E;
+  --message-ai-bg: #e6f2ed;
+  
+  --sidebar-bg: #ffffff;
+  --sidebar-hover: #f0faf5;
+  --sidebar-active: #e6f2ed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Custom Scrollbar Styling */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(66, 133, 244, 0.5) transparent;
+}
+
+/* Webkit browsers (Chrome, Safari, Edge) */
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #4285f4 0%, #8b5cf6 50%, #06b6d4 100%);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #5a9fff 0%, #a78bfa 50%, #22d3ee 100%);
+  box-shadow: 0 0 10px rgba(66, 133, 244, 0.5);
+}
+
+/* Smooth scrolling for the entire page */
+html {
+  scroll-behavior: smooth;
+}
