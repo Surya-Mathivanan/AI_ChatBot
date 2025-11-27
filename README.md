@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 # 🤖 GeminiChat - AI Chatbot Application
 
 A full-stack AI chatbot application powered by Google's Gemini AI, featuring Google OAuth authentication and a modern React interface.
